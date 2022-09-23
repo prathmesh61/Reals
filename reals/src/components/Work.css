@@ -1,0 +1,41 @@
+.work {
+    padding: 2.5rem;
+    margin-top: 6rem;
+}
+
+.work-content {
+    text-align: center;
+}
+
+.work-content h2 {
+    font-weight: 800;
+}
+
+.work-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.work-box .work-point {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.work-box .work-point a {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.work-box .work-point h4 {
+    margin: .7rem 0;
+    font-weight: 600;
+}
+
+.work-box .work-point p {
+    font-size: 0.7rem;
+}

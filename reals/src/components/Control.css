@@ -1,0 +1,76 @@
+.control {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.control-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 7rem;
+
+
+
+
+}
+
+.control-wrapper img {
+    width: 75%;
+}
+
+.control-wrapper .control-content h2 {
+    font-weight: 800;
+}
+
+.control-wrapper .control-content p {
+    font-weight: 500;
+    font-size: .9rem;
+    margin: 1rem 0;
+    color: #888;
+    line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .control-wrapper {
+        margin-top: 20rem;
+    }
+
+    .control-wrapper .control-content {
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+    .control-wrapper {
+        margin-top: 20rem;
+    }
+
+    .control-wrapper .control-content {
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .control-wrapper .control-content h2 {
+        font-weight: 800;
+        font-size: 1.4rem;
+    }
+
+    .control-wrapper .control-content p {
+
+        font-size: .6rem;
+    }
+
+    .control-wrapper img {
+        margin-left: 2rem;
+    }
+
+    .control-wrapper .control-content {
+        max-width: 350px;
+        margin-left: 2rem;
+    }
+
+}

@@ -1,0 +1,61 @@
+.feature {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.feature-content {
+    text-align: center;
+}
+
+.feature-content h2 {
+    font-weight: 800;
+}
+
+.feature-content p {
+    font-size: 0.8rem;
+}
+
+.feature-box {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+}
+
+.feature-box .feature-point {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.feature-box .feature-point img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.feature-box .feature-point h2 {
+    font-size: 1rem;
+    margin: .9rem 0 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.feature-type {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.feature-type h5 {
+    background-color: var(--main-color);
+    padding: .2rem .6rem;
+    color: var(--white);
+}
+
+.feature-price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
